@@ -33,7 +33,7 @@
             <!-- Table Starts -->
             <div class="row">
                 <div class="col-md-3"></div>
-                <div class="col-md-6">
+                <div class="col-md-6 data-div">
                     <div class="data-table">
                         <h4 class="display-6 todo-title">All To-Do List</h4>
                         <br>
@@ -48,61 +48,61 @@
                                 <td class="table-text-center">1</td>
                                 <td>This is the first To Do</td>
                                 <td>01-DEC-2021</td>
-                                <td class="table-text-center icon"><i class="far fa-edit"></i>&nbsp; &nbsp;<i class="far fa-trash-alt"></i></td>
+                                <td class="table-text-center icon"><a href="#"><i class="far fa-edit"></i></a> &nbsp; &nbsp;<a href="#"><i class="far fa-trash-alt"></i></a></td>
                             </tr>
                             <tr>
                                 <td class="table-text-center">1</td>
                                 <td>This is the first To Do</td>
                                 <td>01-DEC-2021</td>
-                                <td class="table-text-center icon"><i class="far fa-edit"></i>&nbsp; &nbsp;<i class="far fa-trash-alt"></i></td>
+                                <td class="table-text-center icon"><a href="#"><i class="far fa-edit"></i></a> &nbsp; &nbsp;<a href="#"><i class="far fa-trash-alt"></i></a></td>
                             </tr>
                             <tr>
                                 <td class="table-text-center">1</td>
                                 <td>This is the first To Do</td>
                                 <td>01-DEC-2021</td>
-                                <td class="table-text-center icon"><i class="far fa-edit"></i>&nbsp; &nbsp;<i class="far fa-trash-alt"></i></td>
+                                <td class="table-text-center icon"><a href="#"><i class="far fa-edit"></i></a> &nbsp; &nbsp;<a href="#"><i class="far fa-trash-alt"></i></a></td>
                             </tr>
                             <tr>
                                 <td class="table-text-center">1</td>
                                 <td>This is the first To Do</td>
                                 <td>01-DEC-2021</td>
-                                <td class="table-text-center icon"><i class="far fa-edit"></i>&nbsp; &nbsp;<i class="far fa-trash-alt"></i></td>
+                                <td class="table-text-center icon"><a href="#"><i class="far fa-edit"></i></a> &nbsp; &nbsp;<a href="#"><i class="far fa-trash-alt"></i></a></td>
                             </tr>
                             <tr>
                                 <td class="table-text-center">1</td>
                                 <td>This is the first To Do</td>
                                 <td>01-DEC-2021</td>
-                                <td class="table-text-center icon"><i class="far fa-edit"></i>&nbsp; &nbsp;<i class="far fa-trash-alt"></i></td>
+                                <td class="table-text-center icon"><a href="#"><i class="far fa-edit"></i></a> &nbsp; &nbsp;<a href="#"><i class="far fa-trash-alt"></i></a></td>
                             </tr>
                             <tr>
                                 <td class="table-text-center">1</td>
                                 <td>This is the first To Do</td>
                                 <td>01-DEC-2021</td>
-                                <td class="table-text-center icon"><i class="far fa-edit"></i>&nbsp; &nbsp;<i class="far fa-trash-alt"></i></td>
+                                <td class="table-text-center icon"><a href="#"><i class="far fa-edit"></i></a> &nbsp; &nbsp;<a href="#"><i class="far fa-trash-alt"></i></a></td>
                             </tr>
                             <tr>
                                 <td class="table-text-center">1</td>
                                 <td>This is the first To Do</td>
                                 <td>01-DEC-2021</td>
-                                <td class="table-text-center icon"><i class="far fa-edit"></i>&nbsp; &nbsp;<i class="far fa-trash-alt"></i></td>
+                                <td class="table-text-center icon"><a href="#"><i class="far fa-edit"></i></a> &nbsp; &nbsp;<a href="#"><i class="far fa-trash-alt"></i></a></td>
                             </tr>
                             <tr>
                                 <td class="table-text-center">1</td>
                                 <td>This is the first To Do</td>
                                 <td>01-DEC-2021</td>
-                                <td class="table-text-center icon"><i class="far fa-edit"></i>&nbsp; &nbsp;<i class="far fa-trash-alt"></i></td>
+                                <td class="table-text-center icon"><a href="#"><i class="far fa-edit"></i></a> &nbsp; &nbsp;<a href="#"><i class="far fa-trash-alt"></i></a></td>
                             </tr>
                             <tr>
                                 <td class="table-text-center">1</td>
                                 <td>This is the first To Do</td>
                                 <td>01-DEC-2021</td>
-                                <td class="table-text-center icon"><i class="far fa-edit"></i>&nbsp; &nbsp;<i class="far fa-trash-alt"></i></td>
+                                <td class="table-text-center icon"><a href="#"><i class="far fa-edit"></i></a> &nbsp; &nbsp;<a href="#"><i class="far fa-trash-alt"></i></a></td>
                             </tr>
                             <tr>
                                 <td class="table-text-center">1</td>
                                 <td>This is the first To Do</td>
                                 <td>01-DEC-2021</td>
-                                <td class="table-text-center icon"><i class="far fa-edit"></i>&nbsp; &nbsp;<i class="far fa-trash-alt"></i></td>
+                                <td class="table-text-center icon"><a href="#"><i class="far fa-edit"></i></a> &nbsp; &nbsp;<a href="#"><i class="far fa-trash-alt"></i></a></td>
                             </tr>
                         </table>
                     </div>
@@ -112,6 +112,13 @@
             <!-- Table Starts -->
         </div> 
     </div>
+
+
+    <div class="footer">
+        <p>Copyright - 2021 || ToDo App</p>
+    </div>
+
+
     <?php
     //Code starts from here
     ?>
