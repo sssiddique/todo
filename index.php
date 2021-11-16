@@ -10,12 +10,12 @@
     <link rel="stylesheet" href="icons/css/fontawesome.min.css">
 </head>
 <body>
-    <div class="container-fluid">
-        <div class="container">
+    <div class="container-fluid container-md container-sm">
+        <div class="container container-md container-sm">
             <!-- For Input -->
             <div class="row">
-                <div class="col-md-3"></div>
-                <div class="col-md-6">
+                <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                <div class="col-lg-3 col-md-6 col-sm-3">
                     <div class="row pt-5">
                         <h1 class="display-5 todo-title">To Do List</h1>
                         <br>
@@ -32,8 +32,8 @@
 
             <!-- Table Starts -->
             <div class="row">
-                <div class="col-md-3"></div>
-                <div class="col-md-6 data-div">
+                <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                <div class="col-lg-6 col-md-6 col-sm-6 data-div">
                     <div class="data-table">
                         <h4 class="display-6 todo-title">All To-Do List</h4>
                         <br>
@@ -107,15 +107,15 @@
                         </table>
                     </div>
                 </div>
-                <div class="col-md-3"></div>
+                <div class="col-lg-3 col-md-3 col-sm-3"></div>
             </div>
-            <!-- Table Starts -->
+            <!-- Table Ends -->
         </div> 
     </div>
 
 
     <div class="footer">
-        <p>Copyright - 2021 || ToDo App</p>
+        <p><a href="#">Copyright - 2021 || ToDo App</a></p>
     </div>
 
 
