@@ -1,3 +1,4 @@
+/* Final CSS File */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto:wght@300;400&display=swap');
 * {
     margin: 0;
@@ -12,6 +13,7 @@ body {
     background: linear-gradient(to bottom, #68EACC 0%, #497BE8 100%);
     background-position: center; /* Center the image */
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: auto;
 }
 
@@ -48,6 +50,8 @@ form .btn-add {
 
 .data-div {
     position: relative;
+    /* overflow: auto;
+    max-height: 50vh; */
 }
 
 .data-table {
@@ -59,7 +63,6 @@ form .btn-add {
     background-color: #fff; /*linear-gradient(353deg, #ed3560 0%, #fbf409 100%)*/
     border: 5px solid #fff;
     border-radius: 5px;
-    display: block;
     margin: 0px!important;
     color: rgb(0, 0, 0);
     font-weight: bold;

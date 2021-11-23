@@ -15,7 +15,7 @@
             <!-- For Input -->
             <div class="row">
                 <div class="col-lg-3 col-md-3 col-sm-3"></div>
-                <div class="col-lg-3 col-md-6 col-sm-3">
+                <div class="col-lg-6 col-md-6 col-sm-6">
                     <div class="row pt-5">
                         <h1 class="display-5 todo-title">To Do List</h1>
                         <br>
@@ -27,6 +27,7 @@
                         </form>
                     </div>
                 </div>
+                <div class="col-lg-3 col-md-3 col-sm-3"></div>
             </div>
             <!-- For Input Ends-->
 
@@ -34,7 +35,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-3 col-sm-3"></div>
                 <div class="col-lg-6 col-md-6 col-sm-6 data-div">
-                    <div class="data-table">
+                    <div class="data-table" style="overflow: auto; max-height: 70vh;">
                         <h4 class="display-6 todo-title">All To-Do List</h4>
                         <br>
                         <table class="table table-striped table-hover">
@@ -43,6 +44,30 @@
                                 <th style="width: 55%;">To Do's</th>
                                 <th style="width: 20%;">Date</th>
                                 <th style="width: 15%;">Edit/Delete</th>
+                            </tr>
+                            <tr>
+                                <td class="table-text-center">1</td>
+                                <td>This is the first To Do</td>
+                                <td>01-DEC-2021</td>
+                                <td class="table-text-center icon"><a href="#"><i class="far fa-edit"></i></a> &nbsp; &nbsp;<a href="#"><i class="far fa-trash-alt"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class="table-text-center">1</td>
+                                <td>This is the first To Do</td>
+                                <td>01-DEC-2021</td>
+                                <td class="table-text-center icon"><a href="#"><i class="far fa-edit"></i></a> &nbsp; &nbsp;<a href="#"><i class="far fa-trash-alt"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class="table-text-center">1</td>
+                                <td>This is the first To Do</td>
+                                <td>01-DEC-2021</td>
+                                <td class="table-text-center icon"><a href="#"><i class="far fa-edit"></i></a> &nbsp; &nbsp;<a href="#"><i class="far fa-trash-alt"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class="table-text-center">1</td>
+                                <td>This is the first To Do</td>
+                                <td>01-DEC-2021</td>
+                                <td class="table-text-center icon"><a href="#"><i class="far fa-edit"></i></a> &nbsp; &nbsp;<a href="#"><i class="far fa-trash-alt"></i></a></td>
                             </tr>
                             <tr>
                                 <td class="table-text-center">1</td>
@@ -126,3 +151,7 @@
     <script src="icons/js/all.min.js"></script>
 </body>
 </html>
+
+<?php
+    
+?>
